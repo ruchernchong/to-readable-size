@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Package to convert huge numbers to their respective named values in thousands separator",
   "main": "dist/index.js",
+  "files": [
+    "src"
+  ],
   "author": "Ru Chern Chong <hello@ruchern.xyz>",
   "license": "MIT",
   "publishConfig": {
