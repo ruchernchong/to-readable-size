@@ -1661,6 +1661,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ruchernchong/commarise@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@ruchernchong/commarise@workspace:."
+  dependencies:
+    "@babel/core": ^7.20.12
+    "@babel/preset-env": ^7.20.2
+    "@babel/preset-typescript": ^7.18.6
+    "@types/jest": ^29.2.5
+    jest: ^29.3.1
+    prettier: ^2.8.2
+    typescript: ^4.9.4
+  languageName: unknown
+  linkType: soft
+
 "@sinclair/typebox@npm:^0.24.1":
   version: 0.24.51
   resolution: "@sinclair/typebox@npm:0.24.51"
@@ -2281,20 +2295,6 @@ __metadata:
   checksum: 9b7356817670b9a13a26ca5af1c21615463b500783b739b7634a0c2047c16cef4b2865d7576875c31c3cddf9dd621fa19285e628f20198b233a5cfdda6d0793b
   languageName: node
   linkType: hard
-
-"commarise@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "commarise@workspace:."
-  dependencies:
-    "@babel/core": ^7.20.12
-    "@babel/preset-env": ^7.20.2
-    "@babel/preset-typescript": ^7.18.6
-    "@types/jest": ^29.2.5
-    jest: ^29.3.1
-    prettier: ^2.8.2
-    typescript: ^4.9.4
-  languageName: unknown
-  linkType: soft
 
 "concat-map@npm:0.0.1":
   version: 0.0.1
