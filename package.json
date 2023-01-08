@@ -8,6 +8,10 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruchernchong/commarise.git"
+  },
   "scripts": {
     "build": "tsc --build",
     "build:watch": "yarn build --watch",
