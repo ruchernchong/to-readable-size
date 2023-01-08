@@ -21,4 +21,4 @@ jobs:
           cache: 'yarn'
       - run: yarn install
       - run: yarn test
-      - run: yarn build --if-present
+      - run: yarn build
