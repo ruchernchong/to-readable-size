@@ -1,1 +1,1 @@
-export { default, commarise } from "./commarise";
+export { default, toReadableSize } from "src/toReadableSize";

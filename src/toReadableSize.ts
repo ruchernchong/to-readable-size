@@ -4,7 +4,7 @@
  * @param number
  * @param min
  */
-export const commarise = (number: number, min: number = 1e3): string => {
+export const toReadableSize = (number: number, min: number = 1e3): string => {
   if (number >= min) {
     const units: string[] = ["k", "M", "B", "T"];
 
@@ -19,4 +19,4 @@ export const commarise = (number: number, min: number = 1e3): string => {
   return number.toLocaleString();
 };
 
-export default commarise;
+export default toReadableSize;
