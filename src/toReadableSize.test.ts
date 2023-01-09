@@ -1,4 +1,4 @@
-import toReadableSize from "src/toReadableSize";
+import toReadableSize from "./toReadableSize";
 
 describe("toReadableSize", () => {
   it.each([
