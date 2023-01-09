@@ -15,7 +15,6 @@ jobs:
           cache: 'yarn'
       - run: yarn
       - run: yarn test
-      - run: yarn build
   publish-npm:
     needs: build
     runs-on: ubuntu-latest
