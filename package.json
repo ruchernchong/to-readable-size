@@ -1,5 +1,5 @@
 {
-  "name": "@ruchernchong/commarise",
+  "name": "@ruchernchong/to-readable-size",
   "version": "0.1.3",
   "description": "Package to convert huge numbers to their respective named values in thousands separator",
   "main": "dist/index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ruchernchong/commarise.git"
+    "url": "https://github.com/ruchernchong/to-readable-size.git"
   },
   "scripts": {
     "build": "tsc --build",
